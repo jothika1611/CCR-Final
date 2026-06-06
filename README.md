@@ -50,34 +50,6 @@ CCR-project/
 
 ## ⚙️ Setup & Operations
 
-### Pre-seeded Database (Instant Run)
-To make local evaluation as simple as possible, the database located under `output/chroma_db` is **pre-seeded** and included directly in this repository. Evaluation reviewers do not need to run the crawler or seed the database themselves to test the advisor; it is ready to run out of the box!
-
-### Method 1: Automatic Setup & Run (Recommended)
-
-#### On Windows (PowerShell):
-Open PowerShell (As Administrator) in the repository root and execute:
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
-.\run_platform.ps1
-```
-
-#### On macOS / Linux (Bash):
-Open a terminal in the repository root and execute:
-```bash
-chmod +x run_platform.sh
-./run_platform.sh
-```
-
-These scripts will automatically:
-1. Create a virtual environment (`venv`).
-2. Install pip requirements and Playwright/Chromium dependencies.
-3. Verify if `output/chroma_db` is present (skipping crawling if found, or automatically seeding it with key sections of Title 8 safety guidelines if not).
-4. Launch the **Interactive Compliance Chat CLI** directly.
-
-
-### Method 2: Manual Step-by-Step Execution
-
 1. **Initialize Environment & Install Packages**:
    ```bash
    python -m venv venv
