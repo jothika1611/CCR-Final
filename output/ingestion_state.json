@@ -16,5 +16,17 @@
     "error_log": null,
     "blocks_count": 11,
     "timestamp": "2026-06-05T07:06:46.902596+00:00"
+  },
+  "https://www.dir.ca.gov/title8/3000.html": {
+    "status": "success",
+    "error_log": null,
+    "blocks_count": 5,
+    "timestamp": "2026-06-06T07:23:47.797817+00:00"
+  },
+  "https://www.dir.ca.gov/title8/3300.html": {
+    "status": "success",
+    "error_log": null,
+    "blocks_count": 1,
+    "timestamp": "2026-06-06T08:10:55.839616+00:00"
   }
 }

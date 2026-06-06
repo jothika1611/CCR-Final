@@ -1,0 +1,7 @@
+python agent_cli.py status
+
+python load_vault.py --url https://www.dir.ca.gov/title8/3300.html --limit 5
+
+python agent_cli.py chat
+
+When is a live steam or air hose exempt from being securely fastened to a tank or vat?
